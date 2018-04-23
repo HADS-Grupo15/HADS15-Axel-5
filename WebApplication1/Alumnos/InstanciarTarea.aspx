@@ -8,10 +8,14 @@
     <title>Instanciar tareas alumno</title>
 </head>
 <body>
+    <form id="form1" runat="server">
     <div style="text-align:center;background-color:Highlight;">
             <h1 style="color:lightcyan">INSTANCIAR TAREAS</h1>
+            <div id="cabecera2" style="float:right;text-align:left;width:10%">
+                <asp:ImageButton ID="ImageButton2" runat="server" Height="53px" ImageUrl="https://cdn2.iconfinder.com/data/icons/snipicons/500/logout-256.png" Width="57px" />
+                Logout
+            </div>
     </div>
-    <form id="form1" runat="server">
         <div style="width:250px; margin:0 auto; text-align:center" >
             <asp:Label runat="server" Text="Usuario" style="float:left"></asp:Label>
             <asp:TextBox id="txtUsuario" runat="server" style="float:right;border-color:Highlight;border-right:none;border-left:none;border-top:none" Height="18px" Enabled="False" ReadOnly="True"/>

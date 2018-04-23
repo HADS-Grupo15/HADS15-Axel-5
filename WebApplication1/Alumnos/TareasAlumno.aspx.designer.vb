@@ -23,6 +23,15 @@ Partial Public Class TareasAlumno
     Protected WithEvents formTareaGen As Global.System.Web.UI.HtmlControls.HtmlForm
     
     '''<summary>
+    '''Control ImageButton2.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents ImageButton2 As Global.System.Web.UI.WebControls.ImageButton
+    
+    '''<summary>
     '''Control DropDownList1.
     '''</summary>
     '''<remarks>

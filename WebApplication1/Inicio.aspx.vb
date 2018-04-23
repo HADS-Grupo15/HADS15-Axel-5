@@ -27,6 +27,7 @@ Public Class Login
 
             'Redirigir a aplicación principal
             If tipoUsuario(txtMail.Text) = "Profesor" Then
+                añadirProfesor(txtMail.Text)
                 If txtMail.Text = "vadillo@ehu.es" Then
                     'System.Web.Security.FormsAuthentication.SetAuthCookie("Vadillo", False)
                     System.Web.Security.FormsAuthentication.RedirectFromLoginPage("Vadillo", False)
@@ -39,8 +40,9 @@ Public Class Login
                     Response.Redirect("./Profesores/Profesor.aspx")
                 End If
             Else 'tipo.Read Is "Alumno"
-                    'System.Web.Security.FormsAuthentication.SetAuthCookie("Alumno", False)
-                    System.Web.Security.FormsAuthentication.RedirectFromLoginPage("Alumno", False)
+                añadirAlumno(txtMail.Text)
+                'System.Web.Security.FormsAuthentication.SetAuthCookie("Alumno", False)
+                System.Web.Security.FormsAuthentication.RedirectFromLoginPage("Alumno", False)
                 If Request.QueryString("ReturnURL") Is Nothing Then 'Si no se viene de ninguna página de la aplicación
                     Response.Redirect("./Alumnos/Alumno.aspx")
                 End If

@@ -11,68 +11,68 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class Alumno
+Partial Public Class UsuariosLogueados
     
     '''<summary>
-    '''Control columnaIZQ.
+    '''Control ScriptManager1.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents columnaIZQ As Global.System.Web.UI.HtmlControls.HtmlForm
+    Protected WithEvents ScriptManager1 As Global.System.Web.UI.ScriptManager
     
     '''<summary>
-    '''Control Label1.
+    '''Control UpdatePanel1.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents Label1 As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents UpdatePanel1 As Global.System.Web.UI.UpdatePanel
     
     '''<summary>
-    '''Control ImageButton2.
+    '''Control Timer1.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents ImageButton2 As Global.System.Web.UI.WebControls.ImageButton
+    Protected WithEvents Timer1 As Global.System.Web.UI.Timer
     
     '''<summary>
-    '''Control HLTareasGenericas.
+    '''Control ListBoxProfesores.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents HLTareasGenericas As Global.System.Web.UI.WebControls.HyperLink
+    Protected WithEvents ListBoxProfesores As Global.System.Web.UI.WebControls.ListBox
     
     '''<summary>
-    '''Control HLTareasPropias.
+    '''Control ListBoxAlumnos.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents HLTareasPropias As Global.System.Web.UI.WebControls.HyperLink
+    Protected WithEvents ListBoxAlumnos As Global.System.Web.UI.WebControls.ListBox
     
     '''<summary>
-    '''Control HLGrupos.
+    '''Control LabelNumProfesores.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents HLGrupos As Global.System.Web.UI.WebControls.HyperLink
+    Protected WithEvents LabelNumProfesores As Global.System.Web.UI.WebControls.Label
     
     '''<summary>
-    '''Control UsuariosLogueados1.
+    '''Control LabelNumAlumnos.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents UsuariosLogueados1 As Global.WebApplication1.UsuariosLogueados
+    Protected WithEvents LabelNumAlumnos As Global.System.Web.UI.WebControls.Label
 End Class

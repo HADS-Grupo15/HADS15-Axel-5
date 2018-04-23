@@ -1,4 +1,5 @@
 ﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="Profesor.aspx.vb" Inherits="WebApplication1.Profesor2" %>
+<%@ Register src="../UsuariosLogueados.ascx" tagname="UsuariosLogueados" tagprefix="uc1" %>
 <!DOCTYPE html>
 <script runat="server">
     Protected Sub LinkButton8_Click(sender As Object, e As EventArgs)
@@ -41,6 +42,7 @@
             <br /><br />
             <h1>Profesores</h1>
         </div>
+        <uc1:UsuariosLogueados ID="UsuariosLogueados1" runat="server" />
     </form>
 </body>
 </html>

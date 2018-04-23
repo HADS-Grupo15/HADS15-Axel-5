@@ -5,4 +5,11 @@
 
     End Sub
 
+    Protected Sub ImageButton2_Click(sender As Object, e As ImageClickEventArgs) Handles ImageButton2.Click
+        FormsAuthentication.SignOut()
+        eliminarAlumno(Session("UserID"))
+        Session.Abandon()
+
+        Response.Redirect("../Inicio.aspx")
+    End Sub
 End Class
